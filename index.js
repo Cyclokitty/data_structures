@@ -1,6 +1,7 @@
 const Queue = require('./classes/Queue');
 const weave = require('./algorithms/Weave');
 const Stack = require('./classes/Stack');
+const { Node, LinkedList } = require('./classes/LinkedList');
 
 let q = new Queue();
 
@@ -61,3 +62,10 @@ console.log(s.length());
 
 q.print();
 s.print();
+
+const list = new LinkedList();
+list.insertFirst('red');
+list.insertFirst('blue');
+list.insertFirst('purple');
+
+console.log(list)
