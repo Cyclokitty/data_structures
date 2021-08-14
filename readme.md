@@ -13,4 +13,10 @@ The algorithm assigned in the course annoyed me. I do not want to create a class
 
 I did add a print() to both Stack and Queue classes.
 
+**Day 3 (Aug 14, 2021)**
+
+First thing: this is a new computer and I forgot to set up SSH with Github. Of course, it's been a long time since I did this on my previous computer and that meant some reading in the Github docs. A bit of copy and paste in the terminal and voila! I can upload to Github!
+
+Back to our DS&A show...
+
 
