@@ -67,5 +67,10 @@ const list = new LinkedList();
 list.insertFirst('red');
 list.insertFirst('blue');
 list.insertFirst('purple');
+list.insertFirst('orange');
 
-console.log(list)
+console.log(list);
+
+console.log(list.size());
+
+console.log(list.getHead());

@@ -3,8 +3,6 @@ class Node {
         this.data = data;
         this.next = next;
     }
-
-
 }
 
 class LinkedList {
@@ -16,7 +14,20 @@ class LinkedList {
         this.head = new Node(data, this.head);
     }
 
-    
+    size() {
+        var count = 0;
+        var temp = this.head;
+
+        while (temp !== null) {
+            count++;
+            temp = temp.next;
+        }
+        return count;
+    }
+
+    getHead() {
+        return this.head.data;
+    }
 }
 
 module.exports = { Node, LinkedList };
