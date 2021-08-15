@@ -1,7 +1,7 @@
 const Queue = require('./classes/Queue');
 const weave = require('./algorithms/Weave');
 const Stack = require('./classes/Stack');
-const { Node, LinkedList } = require('./classes/LinkedList');
+const { LinkedList } = require('./classes/LinkedList');
 
 let q = new Queue();
 
@@ -73,4 +73,15 @@ console.log(list);
 
 console.log(list.size());
 
-console.log(list.getHead());
+console.log(list.getFirst());
+console.log(list.getLast());
+
+const bList = new LinkedList();
+console.log(bList.getFirst());
+
+bList.insertFirst(10); 
+bList.insertFirst(20);
+bList.insertFirst(30);
+console.log(bList.size());
+bList.clear();
+console.log(bList.size());

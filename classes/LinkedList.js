@@ -15,18 +15,36 @@ class LinkedList {
     }
 
     size() {
-        var count = 0;
-        var temp = this.head;
+        let counter = 0;
+        let node = this.head;
 
-        while (temp !== null) {
-            count++;
-            temp = temp.next;
+        while (node) {
+            counter++;
+            node = node.next;
         }
-        return count;
+        return counter;
     }
 
-    getHead() {
-        return this.head.data;
+    getFirst() {
+        return this.head;
+    }
+
+    getLast() {
+        let node = this.head;
+
+        if (!node) return null;
+
+        while (node) {
+            if (node.next) {
+                node = node.next;
+            } else {
+                return node;
+            }
+        }
+    }
+
+    clear() {
+        this.head = null;
     }
 }
 
