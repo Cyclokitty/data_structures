@@ -19,4 +19,21 @@ First thing: this is a new computer and I forgot to set up SSH with Github. Of c
 
 Back to our DS&A show...
 
+Began learning how to build a Linked List. I've used LL in the past with Java and it was a pretty easy and efficient way to deal with data.
+
+Build insertFirst(), size() methods.
+
+**Day 4 (Aug 14, 2021)**
+
+Do you know what is underrated?
+
+While loops! They get to the point. Either you find or don't find an item, then you go on your merry way. Sure, it's easy to get caught in an infinite loop but if I understand what I'm looking for and what I should be limiting (to end the while loop), then all is golden. 
+
+I used the while loop in the size() and getLast() methods.
+
+Also, built the clear() method.
+
+
+
+
 
