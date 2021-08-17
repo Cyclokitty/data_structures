@@ -33,7 +33,15 @@ I used the while loop in the size() and getLast() methods.
 
 Also, built the clear() method.
 
+**Day 5 (Aug 16, 2021)**
 
+removeLast() method hurt my head as I tried visualizing the next node as a while loop traversed the LL chain.
+
+Will try again tomorrow.
+
+**Day 6 (Aug 17, 2021)**
+
+Sorted out removeLast()! Then, worked on insertLast(data). Also, worked on a print() method because the console.log doesn't print out the chained items nicely. 
 
 
 

@@ -85,3 +85,17 @@ bList.insertFirst(30);
 console.log(bList.size());
 bList.clear();
 console.log(bList.size());
+
+list.removeFirst();
+console.log(list);
+console.log(list.size());
+list.removeLast();
+console.log(list)
+list.insertLast('brown');
+
+let cars = new LinkedList();
+
+cars.insertLast('big car');
+console.log(cars);
+cars.insertLast('small car');
+console.log(cars);
