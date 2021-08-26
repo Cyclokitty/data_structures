@@ -103,3 +103,19 @@ cars.print();
 list.print();
 
 console.log(list.getAt(1))
+
+let rocks = new LinkedList();
+
+rocks.insertFirst('smooth');
+rocks.insertFirst('pinky');
+rocks.insertFirst('igneus');
+rocks.insertFirst('granite');
+rocks.insertFirst('river');
+rocks.insertFirst('marble');
+
+//rocks.print();
+console.log(rocks.size());
+console.log('-----------')
+console.log(rocks.removeAt(1));
+rocks.print();
+console.log(rocks.size());
