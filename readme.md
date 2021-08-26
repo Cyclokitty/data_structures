@@ -43,9 +43,17 @@ Will try again tomorrow.
 
 Sorted out removeLast()! Then, worked on insertLast(data). Also, worked on a print() method because the console.log doesn't print out the chained items nicely. 
 
-**Day 7 (Aug 26, 2021)**
+**Day 7 (Aug 25, 2021)**
 
 A bit of a holiday...
+
+Worked on print method. Started removeAt() method but needs more work.
+
+**Day 8 (Aug 26, 2021)**
+
+OK! It took some work but I figured out removeAt() method and it works. Yay. 
+
+Also, fixed up print() a bit more and so far I'm happy with it.
 
 
 
