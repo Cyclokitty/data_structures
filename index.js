@@ -99,3 +99,7 @@ cars.insertLast('big car');
 console.log(cars);
 cars.insertLast('small car');
 console.log(cars);
+cars.print();
+list.print();
+
+console.log(list.getAt(1))

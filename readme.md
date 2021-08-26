@@ -43,5 +43,11 @@ Will try again tomorrow.
 
 Sorted out removeLast()! Then, worked on insertLast(data). Also, worked on a print() method because the console.log doesn't print out the chained items nicely. 
 
+**Day 7 (Aug 26, 2021)**
+
+A bit of a holiday...
+
+
+
 
 

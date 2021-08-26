@@ -83,8 +83,27 @@ class LinkedList {
         }
     }
 
+    getAt(index) {
+        let counter = 0;
+
+        let node = this.head;
+
+        while (node) {
+            if (counter === index) return node;
+
+            node = node.next;
+            counter++;
+        }
+        return null;
+    }
+
     print() {
-        console.log('need more work');
+        let node = this.head;
+
+        while (node) {
+            console.log(node.data);
+            node = node.next;
+        }
     }
 
     
