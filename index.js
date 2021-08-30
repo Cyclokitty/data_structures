@@ -115,7 +115,21 @@ rocks.insertFirst('marble');
 
 //rocks.print();
 console.log(rocks.size());
-console.log('-----------')
+console.log('-----------');
 console.log(rocks.removeAt(1));
 rocks.print();
 console.log(rocks.size());
+console.log('-----------');
+rocks.insertAt('pumice', 3);
+rocks.print();
+console.log('-----------');
+
+rocks.insertAt('flint', 9);
+rocks.print();
+console.log('-----------');
+rocks.insertAt('shale', 0);
+rocks.print();
+console.log('-----------');
+
+rocks.insertAt('lumpy', 0);
+rocks.print();

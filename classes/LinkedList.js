@@ -101,6 +101,7 @@ class LinkedList {
         let node = this.head;
         let counter = 0;
         let previous, future;
+
         if (!this.head) return null;
 
         if (index === 0 && this.size() === 1) {
@@ -126,6 +127,39 @@ class LinkedList {
 
         } else {
             return null;
+        }
+    }
+
+    insertAt(data, index) {
+        let node = this.head;
+        let previous;
+        let future;
+        let counter = 0;
+
+        if (!this.head) {
+            this.insertFirst(data);
+        }
+
+        if (index === 0 && this.head) {
+            this.insertFirst(data);
+        }
+
+        if (index > this.size() - 1) {
+            this.insertLast(data);
+        } 
+
+        if (index > 0 && index <= this.size() - 1 ) {
+            previous = this.getAt(index - 1);
+            future = this.getAt(index);
+            while(node) {
+                if (counter === index) {
+                    let newNode = new Node(data);
+                    previous.next = newNode;
+                    newNode.next = future;
+                }
+                node = node.next;
+                counter++;
+            }
         }
     }
 
