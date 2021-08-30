@@ -56,6 +56,10 @@ OK! It took some work but I figured out removeAt() method and it works. Yay.
 Also, fixed up print() a bit more and so far I'm happy with it.
 
 
+**Day 9 (Aug 30, 2021)**
+
+Built the insertAt(data, index) method. Didn't take me too long but it is a bit janky. Strangely, I like it. It's a bit to read but I think it covers each edge case before getting to a simple insertion. 
+
 
 
 
