@@ -60,6 +60,13 @@ Also, fixed up print() a bit more and so far I'm happy with it.
 
 Built the insertAt(data, index) method. Didn't take me too long but it is a bit janky. Strangely, I like it. It's a bit to read but I think it covers each edge case before getting to a simple insertion. 
 
+**Day 10 (Sep 1, 2021)**
+
+Completed the forEach() method for the LinkedList data structure and completed the midpoint algorithm.
+
+forEach() was pretty straight forward.
+
+The midpoint algo required me to find the midpoint of a linkedList BUT I could not use a pointer variable or use the size() method.
 
 
 

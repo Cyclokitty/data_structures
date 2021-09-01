@@ -1,6 +1,7 @@
 const Queue = require('./classes/Queue');
 const weave = require('./algorithms/Weave');
 const Stack = require('./classes/Stack');
+const mp = require('./algorithms/midpoint');
 const { LinkedList } = require('./classes/LinkedList');
 
 let q = new Queue();
@@ -133,3 +134,30 @@ console.log('-----------');
 
 rocks.insertAt('lumpy', 0);
 rocks.print();
+console.log('-----------');
+rocks.forEach((node) => {
+    console.log(node.data);
+});
+console.log('-----------');
+
+// midpoint.js algo
+let colours = new LinkedList();
+console.log(mp(colours));
+console.log('-----------');
+
+colours.insertFirst('green');
+colours.insertFirst('blue');
+colours.insertFirst('red');
+colours.insertFirst('orange');
+colours.insertFirst('purple');
+colours.print();
+console.log('-----------');
+
+let midpoint = mp(colours);
+console.log(midpoint);
+console.log('-----------');
+
+colours.insertLast('grey');
+colours.print();
+let colMidpoint = mp(colours);
+console.log(colMidpoint);

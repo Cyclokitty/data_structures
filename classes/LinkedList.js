@@ -163,6 +163,19 @@ class LinkedList {
         }
     }
 
+    forEach(fn) {
+        let node = this.head;
+        let counter = 0;
+
+        if (!this.head) return null;
+
+        while(node) {
+            fn(node, counter);
+            node = node.next;
+            counter++;
+        }
+    }
+
     print() {
         let node = this.head;
 
